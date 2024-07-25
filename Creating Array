@@ -1,0 +1,30 @@
+import java.util.Scanner;
+import java.util.Arrays;
+public class ArrayEx {
+    /**
+     * @param args
+     */
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();                     // size of the array  
+        int[] arr = new int[n];                   // declaring array
+        for(int i = 0; i<arr.length; i++){        // taking input from the user
+            arr[i] = sc.nextInt();
+            
+            
+        }
+
+        for(int i =0; i<arr.length; i++){          //traditional for loop method
+            System.out.print(arr[i] + " ");
+        }
+
+        for(int num : arr){                        //enhanced for loop method
+            System.out.print(num + " ");
+        }
+
+        System.out.print(Arrays.toString(arr));    //best method as it adds brackets as well but internally it uses for loop only.
+        
+        sc.close();
+    }
+    
+}
