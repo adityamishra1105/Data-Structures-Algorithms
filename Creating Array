@@ -22,7 +22,7 @@ public class ArrayEx {
             System.out.print(num + " ");
         }
 
-        System.out.print(Arrays.toString(arr));    //best method as it adds brackets as well but internally it uses for loop only.
+        System.out.print(Arrays.toString(arr));    //best method as it adds brackets as well, but internally it uses for loop only.
         
         sc.close();
     }
