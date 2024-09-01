@@ -1,5 +1,3 @@
-// https://chatgpt.com/share/ef5f99ee-5d74-4623-a57a-a1e960b6c6e4 for code explanation
-
 import java.util.Arrays;
 import java.util.Scanner;
 
